@@ -21,8 +21,6 @@ class ToDoDetailsViewController: UIViewController {
     var toDoItem: ToDoItem!
     
     var toDoIndex: Int!
-    
-    let message = "hello, world"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,8 +36,6 @@ class ToDoDetailsViewController: UIViewController {
             disableButton()
             
         }
-        
-        print(message)
         
         let formatter = DateFormatter()
         
